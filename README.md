@@ -52,12 +52,12 @@ Ensure you have Python 3.10 to 3.12 installed on your system.
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
 
-### 2. Install Dependencies
+### 2. **Install Dependencies**
 pip install -r requirements.txt
 
-### 3. Environment setup-->.env file
+### 3. **Environment setup-->.env file**
 OPENAI_API_KEY=your_openai_api_key_here
 SERPER_API_KEY=your_serper_dev_api_key_here
 
-### 4. Running pipeline
+### 4. **Running pipeline**
 python crew.py
